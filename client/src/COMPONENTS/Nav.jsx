@@ -1,6 +1,3 @@
-//PrimePlot@123
-
-
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -183,7 +180,10 @@ class Nav extends React.Component{
                 </div>
                 {this.state.noWeather ? <h6>Couldn't get weather</h6>
                 : <ul className={cx("float-md-right small")}>
-                    <p className="text-info lead small ">TODAY AND TOMORROW WEATHERS</p>{this.state.weatherElement}
+                    <p className="text-info lead small ">TODAY AND TOMORROW WEATHERS</p>
+                    {this.state.weatherLoaded ? 
+                    this.state.weatherElement
+                    : <div className="spinner-border text-light"></div>}
                   </ul>}
                 
                 
