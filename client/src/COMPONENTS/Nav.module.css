@@ -1,0 +1,23 @@
+.li{
+    list-style-type: none;
+    display: inline-flex;
+    text-align: left;
+}
+.weather{
+    margin-right: 15px;
+}
+.weatherCon{
+    line-height: 1px;
+}
+.navitemCon{
+    width: 100%;
+    margin-bottom: -10px;
+}
+@media screen and (max-width: 1024px) {
+    .sticky{
+        position: relative !important;
+    }
+}
+.weatherList{
+    float: left;
+}

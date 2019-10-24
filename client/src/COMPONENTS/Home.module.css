@@ -1,0 +1,29 @@
+.list{
+    list-style-type: none;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.spinner{
+    width: 100px;
+    height: 100px
+}
+.mainCon{
+    position: relative;
+}
+.body{
+    /* background-color: rgb(209, 209, 209); */
+    background-color: #a2a2a1ff;
+    /* position: absolute; */
+    /* margin: 0; */
+    /* display: block; */
+}
+.message{
+    background-color: rgba(220, 247, 255, 0.267);
+}
+.sections{
+    background-color: none;
+}
+.news{
+    background-color: #195190ff;
+    color: black;
+}

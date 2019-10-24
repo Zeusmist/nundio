@@ -1,0 +1,15 @@
+.spinner{
+    width: 100px;
+    height: 100px
+}
+.pagination{
+    list-style-type: none;
+    box-sizing: border-box;
+    box-shadow:(0  2px 2px #333);
+}
+.previousPage, .nextPage{
+    font-size: 20px;
+}
+.activePage{
+    color: rgb(0, 87, 163);
+}
