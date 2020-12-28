@@ -27,7 +27,7 @@ class Home extends Component{
         'pageSize=9&' +
         `category=${category}&` +
         'country=us&' +
-        'apiKey=7a241e177afe47b99d8bf0be5a610cb6';
+        'apiKey=7370ae6a9e744948a531c4779c7d1b48';
         let req = new Request(url);
 
         fetch(req)
