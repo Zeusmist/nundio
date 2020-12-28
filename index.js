@@ -21,7 +21,7 @@ app.get("/search-get", (req, res) => {
         'pageSize=45&' +
         `q=${search}&` +
         'country=us&' +
-        'apiKey=7a241e177afe47b99d8bf0be5a610cb6';
+        'apiKey=7370ae6a9e744948a531c4779c7d1b48';
     fetch(url)
         .then(res => res.json())
         .then(data => res.send(data))
